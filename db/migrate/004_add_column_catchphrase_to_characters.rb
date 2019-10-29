@@ -1,0 +1,3 @@
+class AddColumnCatchpraseToCharacters
+
+end 
