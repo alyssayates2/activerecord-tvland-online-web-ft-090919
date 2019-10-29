@@ -5,4 +5,9 @@ def change
     t.string :last_name
     end
   end
+
+  def full_name
+    Actor.first_name = ("#{first_name}, #{last_name}")
+  end
+
 end
