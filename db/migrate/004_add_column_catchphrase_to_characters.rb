@@ -1,3 +1,3 @@
 class AddCatchpraseToCharacters
 
-end 
+end
