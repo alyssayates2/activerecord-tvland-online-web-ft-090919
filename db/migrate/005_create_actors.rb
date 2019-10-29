@@ -7,6 +7,6 @@ def change
   end
 
   def full_name
-    Actor.full_name = ("#{first_name}, #{last_name}")
+    Actor.first_name = ("#{first_name}, #{last_name}")
   end
 end
