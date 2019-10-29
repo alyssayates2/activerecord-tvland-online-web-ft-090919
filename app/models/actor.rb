@@ -8,7 +8,7 @@ class Actor < ActiveRecord::Base
 
   def list_roles
     self.find_each do |actor|
-      Character.name(actor)
+      Character.name(actor).Show.name
     end
   end
 
