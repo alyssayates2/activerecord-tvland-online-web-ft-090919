@@ -1,0 +1,3 @@
+class AddCatchpraseToCharacters
+
+end 
